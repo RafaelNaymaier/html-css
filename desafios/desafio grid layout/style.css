@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+.con-topo {
+    display: grid;
+    grid-template: repeat(2, 30px) / repeat(5, 150px);
+    background-color: darkred;
+}
+
+.topo {
+    grid-area: 1 / 2 / 3 / 5;
+
+    
+}
+
+.con-menu {
+    background-color: darkgreen;
+    display: grid;
+    grid-template: repeat(1, 30px) / repeat(5, 150px);
+}
+
+.menu {
+
+    grid-area: 1 / 1 / 1 / -1;
+}
